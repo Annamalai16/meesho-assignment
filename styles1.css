@@ -1,0 +1,90 @@
+.first-container {
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    height: min-content;
+}
+.stats-container {
+    padding-top: 10px;
+    width:45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h4{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    color: rgb(180,166,96);
+}
+.caption{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-container {
+    width: 10%;
+    padding: 0 20px;
+    border-left: 1px solid rgb(209, 201, 201);
+}
+.round-box {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: fit-content;
+    padding: 1px 5px;
+    text-align: center;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.second-container {
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+    width: 90%;
+    height: min-content;
+}
+.third-container {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 90%;
+    height: min-content;
+}
+.footprint {
+    width:50%;
+}
+.footprint p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stats-container-1 {
+    text-align: center;
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .third-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footprint {
+        width:100%;
+        padding: 0;
+    }
+    .footprint p{
+        width: 90%;
+    }
+    h4{
+        font-size: 50px;
+    }
+    .caption{
+        width: 50%;
+    }
+    .stats-container-1{
+        width: 100%;
+    }
+}
